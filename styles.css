@@ -41,15 +41,19 @@ body {
 }
 .a.link:link{
   color:#292841;
+  text-decoration:none;
 }
 a.link:visited {
   color:#292841;
+  text-decoration:none;
 }
 a.link:hover {
   color:#292841;
+  text-decoration:none;
 }
 a.link:active {
   color:#292841;
+  text-decoration:none;
 }
 .line {
   margin-top: 20px;
