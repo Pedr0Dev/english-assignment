@@ -1,0 +1,42 @@
+.user-info {
+  width: 67%;
+}
+.icon-relogio {
+  width: 25px;
+}
+.time-user {
+  font-size: 15px;
+}
+.text-lead {
+  margin-bottom: 15px;
+}
+.title-info {
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .user-info {
+    display: flex;
+    width: 100%;
+    flex-direction: baseline;
+  }
+  .icon-relogio {
+    display: flex;
+  }
+  .time-user {
+    display: flex;
+  }
+  .text-lead {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .title-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .lead {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
